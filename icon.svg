@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#grad)"/>
+  
+  <!-- Notebook/Paper -->
+  <rect x="140" y="100" width="232" height="312" rx="12" fill="#ffffff"/>
+  
+  <!-- Lines on paper -->
+  <line x1="170" y1="160" x2="342" y2="160" stroke="#667eea" stroke-width="4" stroke-linecap="round"/>
+  <line x1="170" y1="200" x2="342" y2="200" stroke="#667eea" stroke-width="4" stroke-linecap="round"/>
+  <line x1="170" y1="240" x2="342" y2="240" stroke="#667eea" stroke-width="4" stroke-linecap="round"/>
+  <line x1="170" y1="280" x2="280" y2="280" stroke="#667eea" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pencil -->
+  <g transform="translate(280, 300) rotate(-45)">
+    <!-- Pencil body -->
+    <rect x="0" y="0" width="80" height="20" fill="#FFC107"/>
+    <!-- Pencil tip -->
+    <polygon points="80,0 100,10 80,20" fill="#FF9800"/>
+    <!-- Pencil eraser -->
+    <rect x="-15" y="2" width="15" height="16" rx="2" fill="#E91E63"/>
+    <!-- Metal band -->
+    <rect x="-3" y="0" width="6" height="20" fill="#9E9E9E"/>
+  </g>
+</svg>
